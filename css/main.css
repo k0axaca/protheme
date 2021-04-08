@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.d-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+header {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 1.1rem;
+    border-bottom: 1px solid #bbb;
+}
+
+a {
+    color: #222;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.header-content {
+    -webkit-box-pack:space-between;
+        -ms-flex-pack: space-between;
+            justify-content: space-between;
+}
+
+.container {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.nav-bar>li {
+   margin-left: 1rem;
+   margin-right: 1rem;
+   transition: border-bottom 1s;
+   border-bottom: 1px solid transparent;
+}
+
+.nav-bar li:hover {
+    border-bottom: #222 solid 1px;
+    
+}
+
+.logo {
+    margin-top: auto;
+    margin-bottom: auto;
+    font-weight: 700;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    filter: brightness(85%);
+
+}
+
+.hero {
+    position: relative;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+h1 {
+    font-size: 6rem;
+    font-weight: 900;
+    color:rgb(255, 255, 255);
+    margin: 0;
+}
+
+h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+    margin-bottom: 2rem;
+}
+
+.btn-main {
+    background-color: rgb(53, 49, 49);
+    padding: 1rem 4rem;
+    color: white;
+    transition: 0.5s ease-in-out;
+    font-weight: 300;
+}
+
+.btn-main:hover {
+    background-color: #fff;
+    color: rgb(78, 69, 69);
+    font-weight: 300;
+}
+
+.primary-bg {
+    background-color: #efcb68;
+}
+
+.m-0 {
+    margin-bottom: 0;
+}
+
+.grid {
+    display: grid;
+}
+
+.col-2-col-1 {
+    grid-template-columns: 2fr 1fr;
+}
+
+.section-padding {
+    padding: 2.5rem 0;
+}
+
+.call-to-action-btn {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.section-heading {
+    font-weight: 900;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.section-heading span {
+    color:rgb(78, 69, 69);   
+}
