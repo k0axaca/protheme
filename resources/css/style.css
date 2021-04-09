@@ -97,13 +97,13 @@ h1 {
     padding: 1rem 4rem;
     color: white;
     transition: 0.5s ease-in-out;
-    font-weight: 300;
+    font-weight: 500;
 }
 
 .btn-main:hover {
     background-color: #fff;
     color: rgb(78, 69, 69);
-    font-weight: 300;
+    font-weight: 500;
 }
 
 .primary-bg {
@@ -129,6 +129,7 @@ h1 {
 .call-to-action-btn {
     margin-top: auto;
     margin-bottom: auto;
+ 
 }
 
 .section-heading {
@@ -140,6 +141,8 @@ h1 {
 .section-heading span {
     color:rgb(78, 69, 69);   
 }
+
+
 
 .text-right {
     text-align: right;
@@ -196,6 +199,7 @@ h1 {
 
 .services {
     background-color: #faf5f5;
+    border-top: 1px solid#bbb;
 }
 
 .col-1-col-1-col-1 {
@@ -228,7 +232,7 @@ h1 {
 
 
 .team {
-    padding: 5px;
+    padding: 0;
     border-radius: 0;
 }
 
@@ -239,7 +243,9 @@ h1 {
 
 .team p {
     font-size: .9rem;
-    margin-bottom: 5px;
+    margin-bottom: .5rem;
+    margin-left: .5rem;
+    margin-right: .5rem;
 }
 
 .team-content {
@@ -249,5 +255,46 @@ h1 {
 
 .justify-content-center {
     justify-content: center;
+}
+
+.team-section h2 {
+    margin-top: 2rem;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: .8rem 1rem ;
+    border: none;
+    background-color: rgb(231, 216, 216);
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+    
+}
+
+.contact {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(img/footer.jpg);
+    background-size: cover;
+}
+
+.contact h2,
+.contact label {
+    color: #fff;
+}
+
+.contact label {
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.team-photos {
+    width: 100%;
+    height: auto;
 }
 
