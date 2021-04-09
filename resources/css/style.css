@@ -140,3 +140,43 @@ h3 {
 .section-heading span {
     color:rgb(78, 69, 69);   
 }
+
+.text-right {
+    text-align: right;
+}
+
+.col-1-col-1 {
+    grid-template-columns: 1fr 1fr;
+}
+
+.img-fluid {
+    width: 100%;
+    height: auto;
+}
+
+.about-content-left  {
+    margin: 1rem;
+    margin-right: 0;
+}
+
+.about-content-right  {
+    margin: 1rem;
+    margin-left: 0;
+}
+
+.about-content-left p {
+    padding-bottom: 1rem;
+}
+
+.social-links ul li {
+    padding: .5rem;
+    margin: .5rem;
+    border: 1.5px solid #222;
+    border-radius: 10%;
+    font-size: 1.1rem;
+    transition: 0.3s ease-in-out; 
+}
+
+.social-links ul li:hover {
+    background-color: #efcb68;
+}
