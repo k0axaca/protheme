@@ -281,7 +281,7 @@ h1 {
 
 .contact {
     border-top: 1px solid#bbb;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(img/footer.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(img/contact.jpg);
     background-size: cover;
 }
 
@@ -291,7 +291,7 @@ h1 {
 }
 
 .contact label {
-    font-weight: 700;
+    font-weight: 500;
     font-size: 1.2rem;
 }
 
