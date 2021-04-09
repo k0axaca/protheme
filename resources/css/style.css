@@ -200,6 +200,7 @@ h1 {
 .services {
     background-color: #faf5f5;
     border-top: 1px solid#bbb;
+    border-bottom: 1px solid#bbb;
 }
 
 .col-1-col-1-col-1 {
@@ -279,6 +280,7 @@ h1 {
 }
 
 .contact {
+    border-top: 1px solid#bbb;
     background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(img/footer.jpg);
     background-size: cover;
 }
@@ -296,5 +298,11 @@ h1 {
 .team-photos {
     width: 100%;
     height: auto;
+}
+
+*:focus {outline: none;}
+
+.call-to-action {
+    margin-bottom: .25rem;
 }
 
