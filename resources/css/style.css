@@ -93,7 +93,7 @@ h1 {
 }
 
 .btn-main {
-    background-color: rgb(53, 49, 49);
+    background-color: #726969;
     padding: 1rem 4rem;
     color: white;
     transition: 0.5s ease-in-out;
@@ -139,7 +139,7 @@ h1 {
 }
 
 .section-heading span {
-    color:rgb(78, 69, 69);   
+    color: #726969;   
 }
 
 
@@ -194,7 +194,7 @@ h1 {
 }
 
 .services h2 {
-    margin-top: 2.5rem;
+    margin-top: 2rem;
 }
 
 .services {
@@ -267,7 +267,7 @@ h1 {
     width: 100%;
     padding: .8rem 1rem ;
     border: none;
-    background-color: rgb(231, 216, 216);
+    background-color: rgb(235, 223, 223);
 }
 
 .w-50 {
@@ -305,4 +305,19 @@ h1 {
 .call-to-action {
     margin-bottom: .25rem;
 }
+
+.btn-last {
+    background-color: #4e4545;
+    padding: 1rem 4rem;
+    color: white;
+    transition: 0.5s ease-in-out;
+    font-weight: 500;
+}
+
+.btn-last:hover {
+    background-color: #fff;
+    color: #4e4545;
+    font-weight: 500;
+}
+
 
