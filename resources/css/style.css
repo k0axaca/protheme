@@ -279,8 +279,6 @@ h1 {
     margin-bottom: 1.5rem;
 }
 
-
-
 .contact {
     border-top: 1px solid#bbb;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(img/contact.jpg);
@@ -291,7 +289,6 @@ h1 {
 .contact label {
     color: #fff;
 }
-
 
 .contact label {
     font-weight: 500;
@@ -396,4 +393,19 @@ h1 {
     .w-50 {
         width: 100%;
     }
+
+    .grid {
+        display: inline;
+    }
+
+    .team-section .section-padding {
+        padding: 0;
+    }
+
+    .services {
+        background-color: #faf5f5;
+        background: none;
+        
+    }
+    
 }
