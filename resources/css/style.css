@@ -52,7 +52,8 @@ ul {
     
 }
 
-.logo {
+.logo,
+.footer-logo  {
     margin-top: auto;
     margin-bottom: auto;
     font-weight: 700;
@@ -143,7 +144,6 @@ h1 {
 }
 
 
-
 .text-right {
     text-align: right;
 }
@@ -194,12 +194,12 @@ h1 {
 }
 
 .services h2 {
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 .services {
     background-color: #faf5f5;
-    border-top: 1px solid#bbb;
+    background: linear-gradient(#fff, rgb(228, 228, 228));
     border-bottom: 1px solid#bbb;
 }
 
@@ -267,7 +267,8 @@ h1 {
     width: 100%;
     padding: .8rem 1rem ;
     border: none;
-    background-color: rgb(235, 223, 223);
+    background-color: rgb(241, 235, 235);
+    margin-top: .25rem;
 }
 
 .w-50 {
@@ -276,12 +277,13 @@ h1 {
 
 .form-group {
     margin-bottom: 1.5rem;
-    
 }
+
+
 
 .contact {
     border-top: 1px solid#bbb;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(img/contact.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(img/contact.jpg);
     background-size: cover;
 }
 
@@ -289,6 +291,7 @@ h1 {
 .contact label {
     color: #fff;
 }
+
 
 .contact label {
     font-weight: 500;
@@ -307,7 +310,7 @@ h1 {
 }
 
 .btn-last {
-    background-color: #4e4545;
+    background-color: #222;
     padding: 1rem 4rem;
     color: white;
     transition: 0.5s ease-in-out;
@@ -316,8 +319,81 @@ h1 {
 
 .btn-last:hover {
     background-color: #fff;
-    color: #4e4545;
+    color: #222;
     font-weight: 500;
 }
 
+.footer {
+    background-color: #222;
+    color: #fff;
+}
 
+.footer a {
+    color: #fff;
+}
+
+.footer p {
+    color: #fff;
+    margin-top: 1rem;
+}
+
+.footer h3 {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.footer li {
+    margin-bottom: 0.2rem;
+}
+
+@media(max-width: 500px) {
+    .col-1-col-1,
+    .col-2-col-1,
+    .col-1-col-1-col-1 {
+        grid-template-columns: 1fr;
+    }
+
+    .header .d-flex {
+        flex-direction: column;
+    }
+
+    nav {
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .nav-bar li {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        margin: 0;
+        border-top: 1px solid #070707;
+    }
+    .nav-bar li:last-child {
+        border-bottom: 1px solid #070707;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+    h3 {
+        font-size: 1.3rem;
+    }
+
+    .btn-main,
+    .btn-last {
+        padding: 1rem 2rem;
+    }
+
+    .text-right {
+        text-align: center;
+    }
+
+    .call-to-action-btn {
+        margin-top: 2rem;
+        text-align: center;
+    }
+
+    .w-50 {
+        width: 100%;
+    }
+}
